@@ -43,14 +43,11 @@ div
           ul
             li ReactJS и его экосистема
             li VueJS и его экосистема
-            li TypeScript
+            li TypeScript/Flow
             li WebPack/Parcel/Gulp
             li HTML/CSS + препроцессоры (PUG/SASS/SCSS)
             li Препарирование макетов в Photoshop/Figma
-        .tech-content-text
-          p В своей работе я использовал различные библиотеки, такие как: Axios, Lodash, Blueprintjs, Redux-saga, Redux, Reselect, Redux-form, Formik, Stomp-js, Moment.js и другие.
-          p Конфигурировал проекты различной сложности, от модификации стандартных темплейтов Vue cli и create-react-app, до полностью кастомных конфигураций.
-          p Есть опыт написания нескольких js библиотек, для внутренних проектов компании.
+            li Etc ...
 
   section.contacts
     .container
@@ -117,9 +114,7 @@ export default {
     align-items: center;
     padding: 30px 0;
     box-sizing: border-box;
-    @media screen and (max-width: 700px) {
-      height: 88px;
-    }
+    height: 88px;
     .logo {
       user-select: none;
       font-size: 25px;
@@ -191,6 +186,7 @@ export default {
           display: flex;
           justify-content: center;
           align-items: center;
+          cursor: pointer;
         }
       }
     }
@@ -280,8 +276,6 @@ export default {
   background: #000;
 }
 
-/* Enter and leave animations can use different */
-/* durations and timing functions.              */
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
 }
